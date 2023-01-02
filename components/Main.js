@@ -9,10 +9,11 @@ import {
 const Main = () => {
   return (
     <main className="mx-auto max-w-5xl pt-20">
-      <h1 className="mx-auto max-w-[16ch] text-center text-6xl font-bold leading-snug tracking-tight text-white">
-        We're a team of{" "}
+      <h1 className="mx-auto text-center text-6xl font-bold leading-snug tracking-tight text-white">
+        We're a team of
+        <br />
         <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-orange-500 bg-clip-text text-transparent">
-          enthusiast developers
+          enthusiastic developers
         </span>
       </h1>
       <h2 className="mx-auto mt-6 max-w-[64ch] text-center text-lg text-zinc-500">

@@ -1,11 +1,8 @@
-import { Poppins } from "@next/font/google";
 import Link from "next/link";
 import {
   ArrowRightCircleIcon,
   ArrowRightIcon,
 } from "@heroicons/react/24/outline";
-
-const poppins = Poppins({ weight: "700" });
 
 const Header = () => {
   return (

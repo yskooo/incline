@@ -4,9 +4,15 @@ import Main from "../components/Main";
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <Main />
-    </div>
+    <>
+      <Head>
+        <title>Incline: A team of enthusiastic developers</title>
+      </Head>
+      
+      <div>
+        <Header />
+        <Main />
+      </div>
+    </>
   );
 }
